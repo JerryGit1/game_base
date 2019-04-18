@@ -1,0 +1,17 @@
+{
+  "name": "update",
+  "version": "1.0.0",
+  "description": "更新麻将母包",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-sequence": "^0.4.6",
+    "node-cmd": "^3.0.0"
+  }
+}

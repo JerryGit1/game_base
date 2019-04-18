@@ -1,0 +1,22 @@
+
+../libs/AH_MJ_2.0/resource/ 基础路径
+
+1.b_shareInfo --分享提示图片
+
+2.face.png
+  face-json  --表情
+
+3.g_background.png --游戏中桌面背景
+
+4.headAni.png
+  headAni.json  --当前出牌人头像动画
+
+5.loading.png
+  loading.json  --基础弹窗和加载图片
+
+6.mj.png
+  mj.json  --麻将素材
+
+7.spring.png
+  spring.json --聊天文字图片
+

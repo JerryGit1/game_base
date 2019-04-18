@@ -1,0 +1,9 @@
+/**
+ * Created by 伟大的周鹏斌大王 on 2017/7/17.
+ * 用户牌信息
+ */
+class UserModel extends AH_UserModel{
+    public constructor(){
+        super();
+    }
+}

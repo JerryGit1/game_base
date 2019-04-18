@@ -1,0 +1,19 @@
+﻿动态更新母包（代码和资源）
+
+第一步：AH_mj.cmd文件 修改
+    1.AH_MHPath 路径为母包路径 例如：D:\zhoudw\AH_local\excalibur\web\X_pro_base\2.1
+    2.gulpfile_Path 路径为当前目录下 gulpfile.js路径 例如: D:/zhoudw/AH_local/excalibur/web/X_pro_base/AH_update_pro/gulpfile.js\
+
+第二步：AH_mj.cmd文件 放置
+    1.用 win搜索 egret.cmd  放置到相同目录下即可     例如:C:\Users\zhoudw\AppData\Roaming\npm
+
+第三步：在当前项目下更新母包 命令
+     1.webstorm terminal下输入 AH_mj
+     2.此命令会从母包更新代码到当前目录src下    并且自动执行egret build命令
+
+第四步：修改母包
+      1.在当前项目下 webstorm->setting->driectores 添加母包
+      2.在母包修改完后 走第三步 即可更新到当前项目
+
+
+注意：和母包有关的代码或者资源都要执行以上操作 万万不可直接改当前项目的母包
